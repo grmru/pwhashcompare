@@ -222,8 +222,8 @@ namespace grmru.pwhashcompare
         public static void PrintUsage()
         {
             Console.WriteLine("");
-            Console.WriteLine("SHA1 compare program usage:");
-            Console.WriteLine("    shacomp [directory for files where to search] [mask] [path to file with list of searching values] [sha1|sha256|md5|plain]");
+            Console.WriteLine("Hash compare program usage:");
+            Console.WriteLine("    pwhashcompare [directory for files where to search] [mask] [path to file with list of searching values] [sha1|sha256|md5|plain]");
             Console.WriteLine("");
         }
 
